@@ -22,7 +22,7 @@ f = open(filename, "w", encoding="utf-8-sig", newline="")
 writer = csv.writer(f)
 
 cnt = 1
-max_page=40 # maximum pagination
+max_page=40
 for i in range(0, max_page):
     num_content = i*10 + 1
     url = "https://search.naver.com/search.naver?where=news&sm=tab_pge&query=%E6%96%87%20%7C%20%EB%AC%B8%EC%9E%AC%EC%9D%B8%20%7C%20%EB%AC%B8%EB%8C%80%ED%86%B5%EB%A0%B9&sort=0&photo=0&field=0&pd=3&ds=2021.{}.{}&de=2021.{}.{}&mynews=1&office_type=1&office_section_code=2&news_office_checked=1052&nso=so:dd,p:from2021{}{}to2021{}{},a:all&start={}".format(s_mm,s_dd,e_mm,e_dd,s_mm,s_dd,e_mm,e_dd, num_content)

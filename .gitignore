@@ -1,3 +1,7 @@
+### Customs ###
+chromedriver
+test/
+
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,pycharm,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,pycharm,python
 
@@ -275,6 +279,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
 
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
