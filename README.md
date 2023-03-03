@@ -10,5 +10,6 @@
 ## Collecting Data[📝](#contents)<a id = '1'></a>
 ### Collencting Naver News Comment
 1. Collect keyword news URL in Naver news [⌨](./1_collecting_data/navernews_comment_URL.py)
-2. Collencting Youtube News Comment [⌨](./1_collecting_data/navernews_comment_scrap.py)
+2. Collect Naver News Comment [⌨](./1_collecting_data/navernews_comment_scrap.py)
 ### Collecting Youtube News Comment
+1. Collect Youtube News Comment[⌨](./1_collecting_data/2_youtube_comment_crawling.py)
