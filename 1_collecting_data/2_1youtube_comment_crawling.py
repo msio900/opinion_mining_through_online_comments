@@ -1,7 +1,13 @@
+import os, json
 from googleapiclient.discovery import build
 import pandas as pd
 
-api_key = 'AIzaSyCK2ED41swdTl-wH5f40WTjW14LjRBjamE' # 사용자 API key
+test_path = "./test/"
+with open(test_path+"secret.json", encoding='utf-8') as f:
+    secret = json.load(f)
+    api_key = secret['secret_key']
+
+api_key = api_key # 사용자 API key
 keywords = ['문재인', '문대통령', '文'] # 검색 Keyword
 # 검색 Channel ID
 channel_ids = {'YTN':'UChlgI3UHCOnwUGzWzbJ3H5w', 'JTBC':'UCsU-I-vHLiaMfV_ceaYz5rQ', 'SBS':'UCkinYTS9IHqOEwR1Sze2JTw'}
