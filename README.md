@@ -6,6 +6,7 @@
 
 ## 📝Contents<a id = 'contents'></a>
 * Collecting Data [👉🏻](#1)
+* Model training [👉🏻](#2)
 
 ## Collecting Data[📝](#contents)<a id = '1'></a>
 ### Collencting Naver News Comment
@@ -13,3 +14,5 @@
 2. Collect Naver News Comment [⌨](./1_collecting_data/navernews_comment_scrap.py)
 ### Collecting Youtube News Comment
 1. Collect Youtube News Comment[⌨](./1_collecting_data/2_youtube_comment_crawling.py)
+
+## Model Training[📝](#contents)<a id = '2'></a>
