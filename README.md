@@ -16,3 +16,5 @@
 1. Collect Youtube News Comment[⌨](./1_collecting_data/2_youtube_comment_crawling.py)
 
 ## Model Training[📝](#contents)<a id = '2'></a>
+1.KoBERET Model Pretraining [⌨](./2_model_training/1_kobert_pretrained.ipynb)
+2. KoBERT Model Applying [⌨](./2_model_training/2_kobert_pred_labeling.ipynb.ipynb)
